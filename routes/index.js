@@ -14,7 +14,7 @@ router.get('/anggota', function(req, res, next) {
   res.render('anggota', { title: 'Anggota Osis' });
 });
 
-router.get('/About', function(req, res, next) {
-  res.render('anggota', { title: 'About OSIS' });
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: 'About OSIS' });
 
 module.exports = router;
