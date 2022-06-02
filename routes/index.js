@@ -6,4 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Homepage' });
 });
 
+router.get('/acara', function(req, res, next) {
+  res.render('acara', { title: 'Acara Sekolah' });
+});
+
+router.get('/anggota', function(req, res, next) {
+  res.render('anggota', { title: 'Anggota Osis' });
+});
+
 module.exports = router;
