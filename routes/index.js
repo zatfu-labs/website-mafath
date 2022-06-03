@@ -3,19 +3,31 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Homepage' });
+  res.render('index', {
+    layout: 'layouts/main',
+    title: "Homepage"
+  });
 });
 
 router.get('/acara', function(req, res, next) {
-  res.render('acara', { title: 'Acara Sekolah' });
+  res.render('acara', {
+    layout: 'layouts/main',
+    title: 'Acara Sekolah'
+  });
 });
 
 router.get('/anggota', function(req, res, next) {
-  res.render('anggota', { title: 'Anggota Osis' });
+  res.render('anggota', {
+    layout: 'layouts/main',
+    title: 'Anggota Osis'
+  });
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About OSIS' });
+  res.render('about', {
+    layout: 'layouts/main',
+    title: 'About OSIS'
+  });
 });
 
 module.exports = router;
