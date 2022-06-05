@@ -10,7 +10,7 @@ const usersRouter = require('./routes/users');
 const apiRouter = require('./routes/api');
 
 const app = express();
-const PORT = process.env.PORT|'3000';
+var port = process.env.PORT || 3000;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -43,6 +43,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(PORT, () => {
-  console.log(`App listening at http://localhost:${PORT}`);
+app.listen(port, () => {
+  console.log(`App listening at http://localhost:${port}`);
 });
