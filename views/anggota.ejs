@@ -1,6 +1,27 @@
-<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Danger card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">NO</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Kelas</th>
+      <th scope="col">Hak</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if (users.length === 0) { %>
+      <tr>
+          <td colspan="4">
+              <div class="alert alert-danger fw-bold" role="alert">Data Masih Kosong.</div>
+          </td>
+      </tr>
+  <% }  %>
+  <% users.forEach((user, no) => { no++ %>
+      <tr>
+          <th scope="row"><%= no++ %> </th>
+          <td><%= user.nama %> </td>
+          <td><%= user.kelas %> </td>
+          <td><%= user.hak %> </td>
+        </tr>
+  <% }) %>
+  </tbody>
+</table>

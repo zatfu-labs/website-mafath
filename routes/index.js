@@ -1,4 +1,5 @@
 var express = require('express');
+const { loadData } = require("../modules/database")
 var router = express.Router();
 
 /* GET home page. */
@@ -17,9 +18,11 @@ router.get('/acara', function(req, res, next) {
 });
 
 router.get('/anggota', function(req, res, next) {
+  const users = loadData();
   res.render('anggota', {
     layout: 'layouts/main',
-    title: 'Anggota Osis'
+    title: 'Anggota Osis',
+    users
   });
 });
 
