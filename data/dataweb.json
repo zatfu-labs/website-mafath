@@ -1,11 +1,40 @@
+
 [
+
     {"nama": "Syabila K.N", "kelas": "8", "hak": "Ketua osis"},
+
     {"nama": "Nafhan A.D", "kelas": "7", "hak": "Wakil ketua"},
+
     {"nama": "Revy-Kun", "kelas": "8", "hak": "Hemker And Logistik"},
+
     {"nama": "Aditiya A.M", "kelas": "8", "hak": "Humas"},
+
     {"nama": "Selvy", "kelas": "8", "hak": "Keamanan"},
+
     {"nama": "Julianti.S", "kelas": "8", "hak": "Keamanan"},
+
     {"nama": "Salwa Khoerunnisa", "kelas": "8", "hak": "Kesehatan"},
+
     {"nama": "Abdul Basit", "kelas": "7", "hak": "S.Olahraga"},
-    {"nama": "R.E.Faiqa.S", "kelas": "7", "hak": "Logistik"}
+
+    {"nama": "R.E.Faiqa.S", "kelas": "7", "hak": "Logistik"},
+
+    {"nama": "Salsabila", "kelas": "", "hak": "Sekertaris 1"},
+
+    {"nama": "Siti Hilyana", "kelas": "", "hak": "Sekertaris 2"},
+
+    {"nama": "Berlian", "kelas": "", "hak": "Bendahara 1"},
+
+    {"nama": "Alivia Sainatul", "kelas": "", "hak": "Bendahara 2"},
+
+    {"nama": "Nisfah", "kelas": "", "hak": "Ketua Kerohanian"},
+
+    {"nama": "Siti Fatimah", "kelas": "", "hak": "Seksi Kerohanian"},
+
+    {"nama": "Andi", "kelas": "", "hak": "Seksi Kerohanian"},
+
+    {"nama": "Zahra", "kelas": "", "hak": "Seksi Kerohanian"},
+
+    {"nama": "Zures", "kelas": "", "hak": "Seksi Kerohanian"}
+
 ]
