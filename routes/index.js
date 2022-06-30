@@ -33,4 +33,12 @@ router.get('/about', function(req, res, next) {
   });
 });
 
+router.get('/album', function(req, res, next) {
+  res.render('album', {
+    layout: 'layouts/main',
+    title: 'Kenangan OSIS'
+  });
+});
+
+
 module.exports = router;
