@@ -1,5 +1,5 @@
 var express = require('express');
-const { loadData } = require("../modules/database")
+const { isAuthenticated } = require('../lib/auth');
 var router = express.Router();
 
 /* GET home page. */
@@ -18,11 +18,9 @@ router.get('/acara', function(req, res, next) {
 });
 
 router.get('/anggota', function(req, res, next) {
-  const users = loadData();
   res.render('anggota', {
     layout: 'layouts/main',
     title: 'Anggota Osis',
-    users
   });
 });
 

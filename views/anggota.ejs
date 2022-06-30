@@ -1,27 +1,4 @@
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">NO</th>
-      <th scope="col">Nama</th>
-      <th scope="col">Kelas</th>
-      <th scope="col">Jabatan</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% if (users.length === 0) { %>
-      <tr>
-          <td colspan="4">
-              <div class="alert alert-danger fw-bold" role="alert">Data Masih Kosong.</div>
-          </td>
-      </tr>
-  <% }  %>
-  <% users.forEach((user, no) => { no++ %>
-      <tr>
-          <th scope="row"><%= no++ %> </th>
-          <td><%= user.nama %> </td>
-          <td><%= user.kelas %> </td>
-          <td><%= user.hak %> </td>
-        </tr>
-  <% }) %>
-  </tbody>
-</table>
+<div class="container">
+  <h2>Maap Sedang ada perbaikan <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/da0b5dcb-d134-4edd-9864-4909dd5b98d8/deo6bdj-26ed8f92-13f4-4ced-958e-ee0b8f41e5a9.png/v1/fill/w_400,h_400,strp/keqing_animated_chibi_by_usangoen_deo6bdj-fullview.png" style="height: 85px; width: 85px;"></h2>
+  <input type="button" value="Pencet untuk fitur baru :D" onclick="playMusic()" class="btn btn-seconary"/>
+</div>
